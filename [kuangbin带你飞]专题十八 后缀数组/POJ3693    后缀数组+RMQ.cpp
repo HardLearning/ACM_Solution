@@ -52,7 +52,7 @@ inline int Min(int x, int y) {return x<y?x:y; }
 void RMQ_init(int n){
     for (int i=1; i<=n; i++) f[i][0] = height[i];
     for (int j=1; (1<<j)<=n; j++) {
-        for (int i=1; i+(1<<j)<=n; i++)
+        for (int i=1; i+(1<<j)-1<=n; i++)
            f[i][j] = Min(f[i][j-1],f[i+(1<<j-1)][j-1]);
     }
 }
