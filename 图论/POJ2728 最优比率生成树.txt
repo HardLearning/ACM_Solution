@@ -1,0 +1,9 @@
+题意： 求最优比率生成树经典题。。
+       楼教主当年靠此题扰乱众队伍的阵脚，拿到赛区冠军。。
+
+分析： 没啥特别好分析的，网上博客一堆，贴自己觉得好的链接
+
+题解：https://www.cnblogs.com/Fatedayt/archive/2012/03/05/2380888.html
+01分数规划： http://blog.csdn.net/hhaile/article/details/8883652
+
+冏事。。prim算法不熟悉，以前总是用kruskal，WA了一发。。
