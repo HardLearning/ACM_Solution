@@ -1,0 +1,3 @@
+题意： 略
+
+分析： 官方题解链接 http://bestcoder.hdu.edu.cn/blog/2016-multi-university-training-contest-7-solutions-by-sysu/
