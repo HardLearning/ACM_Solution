@@ -67,7 +67,7 @@ int solve(int root, int n, int m){
             u = e[i].from;
             e[i].from = id[u];
             e[i].to = id[v];
-            if (u!=v) e[i].w -= in[v];
+            if (e[i].from!=e[i].to) e[i].w -= in[v];
         }
 
         n = tn;
