@@ -19,7 +19,7 @@ LL det(int n) {
             flag = 0;
             for (int j=i+1; j<=n; j++) if (b[j][i]) {
                 flag  = 1;
-                for (int k=i; k<n; k++) swap(b[i][k],b[j][k]);
+                for (int k=i; k<=n; k++) swap(b[i][k],b[j][k]);
                 ans = -ans;
                 break;
             }
