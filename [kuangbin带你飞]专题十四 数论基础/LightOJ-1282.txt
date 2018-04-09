@@ -1,0 +1,10 @@
+题意：求N^k的前三位和后三位
+
+分析：
+后三位用快速幂，前三位需要推导式子。
+n^k = a.bc * 10.0^m;
+k*log10(n)  = log10(a.bc) + m;
+m为k * lg(n)的整数部分，lg(a.bc)为k * lg(n)的小数部分;
+x = log10(a.bc) = k*log10(n) - m = k*log10(n) - (int)k*log10(n);
+x = pow(10.0, x);
+具体实现见代码
